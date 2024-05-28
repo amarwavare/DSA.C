@@ -4,6 +4,7 @@
 
 int main()
 {
+   printf("Namaste C");
    clock_t begin = clock();
    int i;
 
