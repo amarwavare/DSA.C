@@ -2,14 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 
-int main()
-{
+int main() {
    printf("Namaste C");
    clock_t begin = clock();
    int i;
 
-   for (i = 1; i < 100000; ++i)
-   {
+   for (i = 1; i < 1000; ++i) {
       printf("%d ", i);
    }
    clock_t end = clock();

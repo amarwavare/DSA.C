@@ -2,22 +2,18 @@
 #include <stdlib.h>
 
 // create struct which defines node structure
-struct node
-{
+struct node {
     int value;
     struct node *next;
 };
 
-void traversal(struct node *ptr)
-{
-    while (ptr != NULL)
-    {
+void traversal(struct node *ptr) {
+    while (ptr != NULL) {
         printf("%d \n", ptr->value);
         ptr = ptr->next;
     }
 }
-int main()
-{
+int main() {
     printf("Namaste, get started to linked list ! \n");
 
     /* Initialize nodes by allocating dynamic memory from heap.

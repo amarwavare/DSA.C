@@ -14,7 +14,7 @@ void Traversal(struct node *head) {
     } while (traveller != head);
 };
 
-struct node *InsertHead(struct node *head, int value){
+struct node *InsertHead(struct node *head, int value) {
     struct node *newValue = (struct node *)malloc(sizeof(struct node));
     struct node *traveller;
     newValue->value = value;
